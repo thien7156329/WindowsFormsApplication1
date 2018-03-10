@@ -31,12 +31,12 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtB = new System.Windows.Forms.TextBox();
+            this.txtA = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.txtA = new System.Windows.Forms.TextBox();
-            this.txtB = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,10 +67,42 @@
             this.groupBox1.Controls.Add(this.txtA);
             this.groupBox1.Location = new System.Drawing.Point(27, 34);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(243, 129);
+            this.groupBox1.Size = new System.Drawing.Size(243, 84);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "Nhap A va B";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 45);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(14, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "B";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(7, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(14, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "A";
+            // 
+            // txtB
+            // 
+            this.txtB.Location = new System.Drawing.Point(27, 45);
+            this.txtB.Name = "txtB";
+            this.txtB.Size = new System.Drawing.Size(162, 20);
+            this.txtB.TabIndex = 0;
+            // 
+            // txtA
+            // 
+            this.txtA.Location = new System.Drawing.Point(27, 19);
+            this.txtA.Name = "txtA";
+            this.txtA.Size = new System.Drawing.Size(162, 20);
+            this.txtA.TabIndex = 0;
             // 
             // button3
             // 
@@ -89,38 +121,6 @@
             this.button4.TabIndex = 0;
             this.button4.Text = "/";
             this.button4.UseVisualStyleBackColor = true;
-            // 
-            // txtA
-            // 
-            this.txtA.Location = new System.Drawing.Point(27, 19);
-            this.txtA.Name = "txtA";
-            this.txtA.Size = new System.Drawing.Size(162, 20);
-            this.txtA.TabIndex = 0;
-            // 
-            // txtB
-            // 
-            this.txtB.Location = new System.Drawing.Point(27, 45);
-            this.txtB.Name = "txtB";
-            this.txtB.Size = new System.Drawing.Size(162, 20);
-            this.txtB.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(14, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "A";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 45);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(14, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "B";
             // 
             // Form1
             // 
