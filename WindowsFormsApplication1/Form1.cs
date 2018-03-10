@@ -27,6 +27,7 @@ namespace WindowsFormsApplication1
             {
                 double a = double.Parse(txtA.Text);
                 double b = double.Parse(txtB.Text);
+                Console.WriteLine(a + b);
             }
             
         }
