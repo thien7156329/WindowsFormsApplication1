@@ -31,12 +31,14 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtB = new System.Windows.Forms.TextBox();
+            this.txtA = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.txtA = new System.Windows.Forms.TextBox();
-            this.txtB = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txt_ketqua = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,6 +63,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.txt_ketqua);
+            this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.txtB);
@@ -71,6 +75,38 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 45);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(14, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "B";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(7, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(14, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "A";
+            // 
+            // txtB
+            // 
+            this.txtB.Location = new System.Drawing.Point(27, 45);
+            this.txtB.Name = "txtB";
+            this.txtB.Size = new System.Drawing.Size(162, 20);
+            this.txtB.TabIndex = 0;
+            // 
+            // txtA
+            // 
+            this.txtA.Location = new System.Drawing.Point(27, 19);
+            this.txtA.Name = "txtA";
+            this.txtA.Size = new System.Drawing.Size(162, 20);
+            this.txtA.TabIndex = 0;
             // 
             // button3
             // 
@@ -89,38 +125,25 @@
             this.button4.TabIndex = 0;
             this.button4.Text = "/";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // txtA
+            // label3
             // 
-            this.txtA.Location = new System.Drawing.Point(27, 19);
-            this.txtA.Name = "txtA";
-            this.txtA.Size = new System.Drawing.Size(162, 20);
-            this.txtA.TabIndex = 0;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(7, 77);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(49, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "ket qua :";
             // 
-            // txtB
+            // txt_ketqua
             // 
-            this.txtB.Location = new System.Drawing.Point(27, 45);
-            this.txtB.Name = "txtB";
-            this.txtB.Size = new System.Drawing.Size(162, 20);
-            this.txtB.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(14, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "A";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 45);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(14, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "B";
+            this.txt_ketqua.Location = new System.Drawing.Point(73, 77);
+            this.txt_ketqua.Name = "txt_ketqua";
+            this.txt_ketqua.Size = new System.Drawing.Size(125, 20);
+            this.txt_ketqua.TabIndex = 3;
+            this.txt_ketqua.Text = "0";
+            this.txt_ketqua.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Form1
             // 
@@ -152,6 +175,8 @@
         private System.Windows.Forms.TextBox txtA;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox txt_ketqua;
+        private System.Windows.Forms.Label label3;
     }
 }
 
